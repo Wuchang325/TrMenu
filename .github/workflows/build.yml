@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [ stable/v3 ]
 
+
+
 jobs:
   releaseJar:
     runs-on: ubuntu-latest
